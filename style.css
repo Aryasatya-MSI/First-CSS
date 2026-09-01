@@ -1,29 +1,76 @@
  body {
-    /* border: 50px solid #fff; */
+    border: 50px solid #fff;
     font-family: Arial, sans-serif;
-    /* text-align: center;
-    margin: -4px; */
+    text-align: center;
+    margin: -4px;
     color: #e7ece7;
-    background-color: #055f00;
-    /* background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
     background-size: cover;
-    border: 20px solid #fff; */
+    border: 20px solid #fff;
+
+    border-left: 100px solid #fff;
+    border-right: 100px solid #fff;
 }
 
-/* .frame {
+.frame {
     border: 2px solid #fff;
     padding: 20px;
     margin: 50px auto;
-    width: 80%;
+    width: auto;
     max-width: 600px;
     border-radius: 10px;
     justify-content: center;
-    backdrop-filter: blur(50px);
-} */
+    backdrop-filter: blur(50px)  saturate(180%);
+    animation: idleFloat 5s ease-in-out infinite;
+    
+}
 
-/* .container {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40vh;
-} */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#second{
+    color: #0edc0e;
+
+}
+
+.paragraf{
+    color: purple;
+}
+
+.JudulCard{
+    color:red;
+}
+
+.card{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: auto;
+    max-width: 400px;
+    height: auto;
+    backdrop-filter:  blur(26px) saturate(180%);
+    animation: idleFloat 3s ease-in-out infinite;
+}
+
+@keyframes idleFloat {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
