@@ -1,0 +1,88 @@
+/* =========================
+   BASIC PAGE
+========================= */
+
+body {
+    margin: 0;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+/* =========================
+   PROFILE CARD
+========================= */
+
+.card {
+    width: 300px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+}
+
+/* =========================
+   NAME
+========================= */
+
+#name {
+    margin: 0;
+    color: #222222;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+/* =========================
+   CLASS
+========================= */
+
+.card h2 {
+    margin-top: 10px;
+    color: #666666;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* =========================
+   DESCRIPTION
+========================= */
+
+.description {
+    color: #555555;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* =========================
+   HOBBY
+========================= */
+
+.hobby {
+    color: #777777;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #222222;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}

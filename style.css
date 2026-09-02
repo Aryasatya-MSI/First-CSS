@@ -6,10 +6,8 @@
     color: #e7ece7;
     background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
     background-size: cover;
-    border: 20px solid #fff;
-
-    border-left: 100px solid #fff;
-    border-right: 100px solid #fff;
+    border-left: 100px solid;
+    border-right: 100px solid;
 }
 
 .frame {
